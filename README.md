@@ -24,14 +24,14 @@ The project contains the following files:
 
 ## **How to Run Project**
 
-Install Oracle Virtualbox from [here](https://www.virtualbox.org/wiki/Downloads)
-Install Vagrant from [here](https://www.vagrantup.com/downloads.html)
-Use this link to configure and run the virtual machine [here](https://classroom.udacity.com/nanodegrees/nd004/parts/8d3e23e1-9ab6-47eb-b4f3-d5dc7ef27bf0/modules/bc51d967-cb21-46f4-90ea-caf73439dc59/lessons/5475ecd6-cfdb-4418-85a2-f2583074c08d/concepts/14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0)
-Download the data from [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) and copy the <mark>newsdata.sql</mark> file into the Vagrant directory
-Run <mark>psql -d news -f newsdata.sql</mark>. This will connect to the PostgreSQL server and create the database with all the relevant tables and data
-Copy newsdata.py to the Vagrant folder
-Navigate to the Vagrant folder on the virtual machine
-Run <mark>python newsdata.py</mark>
+- Install Oracle Virtualbox from [here](https://www.virtualbox.org/wiki/Downloads)
+- Install Vagrant from [here](https://www.vagrantup.com/downloads.html)
+- Use this link to configure and run the virtual machine [here](https://classroom.udacity.com/nanodegrees/nd004/parts/8d3e23e1-9ab6-47eb-b4f3-d5dc7ef27bf0/modules/bc51d967-cb21-46f4-90ea-caf73439dc59/lessons/5475ecd6-cfdb-4418-85a2-f2583074c08d/concepts/14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0)
+- Download the data from [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) and copy the <mark>newsdata.sql</mark> file into the Vagrant directory
+- Run <mark>psql -d news -f newsdata.sql</mark>. This will connect to the PostgreSQL server and create the database with all the relevant tables and data
+- Copy newsdata.py to the Vagrant folder
+- Navigate to the Vagrant folder on the virtual machine
+- Run <****>python newsdata.py</****>
 
 ## **Extra Credit Description**
 
