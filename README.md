@@ -2,7 +2,7 @@
 
 **by Sacha Wharton**
 
-**About**
+## **About**
 This is the third project in the Udacity Full Stack Web Developer Nanodegree. The PostgreSQL database provided is a newspaper website's backend and contains newspaper articles, as well as the web server log for the site. The program I have written runs from the command line and does not require any input from the user. It connects to the database, uses SQL queries to analyse the log data, and prints out the answers to a set of questions about the site's user activity in human readable format.
 
 The following questions are answered:
