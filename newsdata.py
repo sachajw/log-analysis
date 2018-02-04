@@ -32,7 +32,7 @@ c.execute(
     FROM articles \
     JOIN authors on articles.author = authors.id \
     JOIN log on '/article/' || articles.slug = log.path \
-	GROUP BY authors.name \
+    GROUP BY authors.name \
     ORDER BY hits desc")
 
 query2 = c.fetchall()
